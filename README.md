@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,6 +57,12 @@
         .publication {
             margin-bottom: 20px;
         }
+        .education {
+            margin-bottom: 20px;
+        }
+        .work-experience {
+            margin-bottom: 20px;
+        }
     </style>
     <script>
         // JavaScript to show/hide sections based on anchor links
@@ -110,26 +116,17 @@
         <li>🔄 BPM and PM Methods: Lean Six Sigma, Agile, Scrum, Kanban, Kaizen, BPMN, VSM</li>
     </ul>
     <h3>Education:</h3>
-    <ul>
-        <li>
-            <img src="concordia_logo.png" alt="Concordia University Logo" width="50px"> M.Eng. in Industrial Engineering<br>
-            Concordia University<br>
-            May 2022
-        </li>
-        <li>
-            <img src="au_rak_logo.png" alt="American University of Ras Al Khaimah Logo" width="50px"> B.S. in Industrial Engineering<br>
-            American University of Ras Al Khaimah, UAE<br>
-            August 2017<br>
-            Graduated with Cum Laude
-        </li>
-    </ul>
-    <h3>Work Experience:</h3>
-    <ul>
-        <li><img src="intelcom_logo.png" alt="Intelcom Logo" width="50px"> Intelcom</li>
-        <li><img src="brp_logo.png" alt="BRP Inc. Logo" width="50px"> BRP Inc.</li>
-        <li><img src="siemens_energy_logo.png" alt="Siemens Energy Logo" width="50px"> Siemens Energy</li>
-        <li><img src="weatherford_logo.png" alt="Weatherford Logo" width="50px"> Weatherford</li>
-    </ul>
+    <div class="education">
+        <h4>M.Eng. in Industrial Engineering</h4>
+        <p>Concordia University</p>
+        <p>May 2022</p>
+    </div>
+    <div class="education">
+        <h4>B.S. in Industrial Engineering</h4>
+        <p>American University of Ras Al Khaimah, UAE</p>
+        <p>August 2017</p>
+        <p>Graduated with Cum Laude</p>
+    </div>
 </section>
 
 <section id="projects">
@@ -144,33 +141,11 @@
         <p><a href="https://scholar.google.ca/citations?user=7y1-KGgAAAAJ&hl=en" target="_blank">Visit my Google Scholar profile</a></p>
     </div>
     <div class="publication">
-        <h3><i class="fas fa-book"></i> Support vector regression based electricity peak load forecasting</h3>
-        <p>M. K. Azad, S. Uddin and M. Takruri, 2018 11th International Symposium on Mechatronics and its Applications (ISMA), Sharjah, United Arab Emirates, 2018, pp. 1-5, doi: 10.1109/ISMA.2018.8330143.</p>
-        <p>Abstract: Electricity load demand forecasting is integral for planning and execution of various projects vital to urban development...</p>
-        <p>Keywords: Support vector machines, Load forecasting, Forecasting, Support vector regression, RStudio</p>
-        <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8330143&isnumber=8330114" target="_blank">Read more</a></p>
+        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8330143&isnumber=8330114" target="_blank">Support vector regression based electricity peak load forecasting</a></h3>
+        <p>M. K. Azad, <strong>S. Uddin</strong> and M. Takruri, 2018 11th International Symposium on Mechatronics and its Applications (ISMA), Sharjah, United Arab Emirates, 2018, pp. 1-5, doi: 10.1109/ISMA.2018.8330143.</p>
     </div>
     <div class="publication">
-        <h3><i class="fas fa-book"></i> Integrating Internet of Things with maintenance spare parts' supply chain</h3>
-        <p>S. Uddin and A. A. A. A. Sharif, 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818491.</p>
-        <p>Abstract: The supply chain and logistics are integral part of any business...</p>
-        <p>Keywords: Internet of Things, Supply chains, Radiofrequency identification, Companies, Internet of things, Supply chain, Logistics, Spare parts</p>
-        <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7818491&isnumber=7818458" target="_blank">Read more</a></p>
+        <h3><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7818491&isnumber=7818458" target="_blank">Integrating Internet of Things with maintenance spare parts' supply chain</a></h3>
+        <p><strong>S. Uddin</strong> and A. A. A. A. Sharif, 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818491.</p>
     </div>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/sihabuddinmh/" target="_blank"><i class="fab fa-linkedin contact-icons"></i>LinkedIn</a></li>
-        <li><a href="https://github.com/sihabuddinmh" target="_blank"><i class="fab fa-github contact-icons"></i>GitHub</a></li>
-        <li><a href="mailto:XX@XX.ca"><i class="far fa-envelope contact-icons"></i>Email</a></li>
-    </ul>
-</section>
-
-<footer>
-    <p>&copy; 2024 Sihab Uddin</p>
-</footer>
-
-</body>
-</html>
+</section
