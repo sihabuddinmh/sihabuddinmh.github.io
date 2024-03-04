@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Sihab Uddin - Industrial Engineering | Analytics | Supply Chain</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Add your CSS styles here */
@@ -54,6 +54,9 @@
             font-size: 24px;
             margin-right: 10px;
         }
+        .publication {
+            margin-bottom: 20px;
+        }
     </style>
     <script>
         // JavaScript to show/hide sections based on anchor links
@@ -80,15 +83,16 @@
 <body>
 
 <header>
-    <h1>Your Name</h1>
+    <h1>Sihab Uddin</h1>
+    <p>Industrial Engineering | Analytics | Supply Chain</p>
 </header>
 
 <nav>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact me</a></li>
+        <li><a href="#publications">Research Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -105,6 +109,27 @@
         <li>📋 Project Management Tools: JIRA, Confluence, Notion, Azure DevOps, MS Visio</li>
         <li>🔄 BPM and PM Methods: Lean Six Sigma, Agile, Scrum, Kanban, Kaizen, BPMN, VSM</li>
     </ul>
+    <h3>Education:</h3>
+    <ul>
+        <li>
+            <img src="concordia_logo.png" alt="Concordia University Logo" width="50px"> M.Eng. in Industrial Engineering<br>
+            Concordia University<br>
+            May 2022
+        </li>
+        <li>
+            <img src="au_rak_logo.png" alt="American University of Ras Al Khaimah Logo" width="50px"> B.S. in Industrial Engineering<br>
+            American University of Ras Al Khaimah, UAE<br>
+            August 2017<br>
+            Graduated with Cum Laude
+        </li>
+    </ul>
+    <h3>Work Experience:</h3>
+    <ul>
+        <li><img src="intelcom_logo.png" alt="Intelcom Logo" width="50px"> Intelcom</li>
+        <li><img src="brp_logo.png" alt="BRP Inc. Logo" width="50px"> BRP Inc.</li>
+        <li><img src="siemens_energy_logo.png" alt="Siemens Energy Logo" width="50px"> Siemens Energy</li>
+        <li><img src="weatherford_logo.png" alt="Weatherford Logo" width="50px"> Weatherford</li>
+    </ul>
 </section>
 
 <section id="projects">
@@ -113,35 +138,38 @@
 </section>
 
 <section id="publications">
-    <h2>Publications</h2>
-    <p>Here are some of my research publications:</p>
-    <ul>
-        <li>
-            <strong>Support vector regression based electricity peak load forecasting</strong><br>
-            M. K. Azad, S. Uddin and M. Takruri, 2018 11th International Symposium on Mechatronics and its Applications (ISMA), Sharjah, United Arab Emirates, 2018, pp. 1-5, doi: 10.1109/ISMA.2018.8330143.<br>
-            Abstract: Electricity load demand forecasting is integral for planning and execution of various projects vital to urban development...
-            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8330143&isnumber=8330114">Read more</a>
-        </li>
-        <li>
-            <strong>Integrating Internet of Things with maintenance spare parts' supply chain</strong><br>
-            S. Uddin and A. A. A. A. Sharif, 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818491.<br>
-            Abstract: The supply chain and logistics are integral part of any business...
-            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7818491&isnumber=7818458">Read more</a>
-        </li>
-    </ul>
+    <h2>Research Publications</h2>
+    <div class="publication">
+        <h3><i class="fab fa-google"></i> Google Scholar</h3>
+        <p><a href="https://scholar.google.ca/citations?user=7y1-KGgAAAAJ&hl=en" target="_blank">Visit my Google Scholar profile</a></p>
+    </div>
+    <div class="publication">
+        <h3><i class="fas fa-book"></i> Support vector regression based electricity peak load forecasting</h3>
+        <p>M. K. Azad, S. Uddin and M. Takruri, 2018 11th International Symposium on Mechatronics and its Applications (ISMA), Sharjah, United Arab Emirates, 2018, pp. 1-5, doi: 10.1109/ISMA.2018.8330143.</p>
+        <p>Abstract: Electricity load demand forecasting is integral for planning and execution of various projects vital to urban development...</p>
+        <p>Keywords: Support vector machines, Load forecasting, Forecasting, Support vector regression, RStudio</p>
+        <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8330143&isnumber=8330114" target="_blank">Read more</a></p>
+    </div>
+    <div class="publication">
+        <h3><i class="fas fa-book"></i> Integrating Internet of Things with maintenance spare parts' supply chain</h3>
+        <p>S. Uddin and A. A. A. A. Sharif, 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818491.</p>
+        <p>Abstract: The supply chain and logistics are integral part of any business...</p>
+        <p>Keywords: Internet of Things, Supply chains, Radiofrequency identification, Companies, Internet of things, Supply chain, Logistics, Spare parts</p>
+        <p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7818491&isnumber=7818458" target="_blank">Read more</a></p>
+    </div>
 </section>
 
 <section id="contact">
-    <h2>Contact me</h2>
-    <p>Feel free to connect with me on LinkedIn and GitHub:</p>
+    <h2>Contact</h2>
     <ul>
-        <li><a href="https://www.linkedin.com/in/sihabuddinmh/"><i class="fab fa-linkedin contact-icons"></i>LinkedIn</a></li>
-        <li><a href="https://github.com/sihabuddinmh"><i class="fab fa-github contact-icons"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sihabuddinmh/" target="_blank"><i class="fab fa-linkedin contact-icons"></i>LinkedIn</a></li>
+        <li><a href="https://github.com/sihabuddinmh" target="_blank"><i class="fab fa-github contact-icons"></i>GitHub</a></li>
+        <li><a href="mailto:XX@XX.ca"><i class="far fa-envelope contact-icons"></i>Email</a></li>
     </ul>
 </section>
 
 <footer>
-    <p>&copy; 2024 Your Name</p>
+    <p>&copy; 2024 Sihab Uddin</p>
 </footer>
 
 </body>
