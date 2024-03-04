@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* Add your CSS styles here */
         body {
@@ -38,6 +39,7 @@
         }
         section {
             padding: 20px;
+            display: none;
         }
         footer {
             background-color: #333;
@@ -48,7 +50,32 @@
             width: 100%;
             bottom: 0;
         }
+        .contact-icons {
+            font-size: 24px;
+            margin-right: 10px;
+        }
     </style>
+    <script>
+        // JavaScript to show/hide sections based on anchor links
+        document.addEventListener("DOMContentLoaded", function() {
+            var sections = document.querySelectorAll("section");
+            var navLinks = document.querySelectorAll("nav ul li a");
+
+            navLinks.forEach(function(navLink) {
+                navLink.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    var targetId = this.getAttribute("href").substring(1);
+                    sections.forEach(function(section) {
+                        if (section.getAttribute("id") === targetId) {
+                            section.style.display = "block";
+                        } else {
+                            section.style.display = "none";
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -108,8 +135,8 @@
     <h2>Contact me</h2>
     <p>Feel free to connect with me on LinkedIn and GitHub:</p>
     <ul>
-        <li><a href="https://www.linkedin.com/in/sihabuddinmh/">LinkedIn</a></li>
-        <li><a href="https://github.com/sihabuddinmh">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/sihabuddinmh/"><i class="fab fa-linkedin contact-icons"></i>LinkedIn</a></li>
+        <li><a href="https://github.com/sihabuddinmh"><i class="fab fa-github contact-icons"></i>GitHub</a></li>
     </ul>
 </section>
 
