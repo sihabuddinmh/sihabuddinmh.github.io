@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -149,3 +148,24 @@
         <p><strong>S. Uddin</strong> and A. A. A. A. Sharif, 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates, 2016, pp. 1-4, doi: 10.1109/ICEDSA.2016.7818491.</p>
     </div>
 </section
+
+>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/sihabuddinmh/" target="_blank"><i class="fab fa-linkedin contact-icons"></i>LinkedIn</a></li>
+        <li><a href="https://github.com/sihabuddinmh" target="_blank"><i class="fab fa-github contact-icons"></i>GitHub</a></li>
+        <li><a href="mailto:XX@XX.ca"><i class="far fa-envelope contact-icons"></i>Email</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sihab Uddin</p>
+</footer>
+
+</body>
+</html>
+```
+
+Please make sure to replace the placeholder email address (`XX@XX.ca`) with your actual email address. Also, ensure that the Font Awesome CSS file is included in your project for the icons to display properly. You can adjust the styling and add your projects as needed.
