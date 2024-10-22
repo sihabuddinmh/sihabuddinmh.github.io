@@ -167,5 +167,3 @@
 </body>
 </html>
 ```
-
-Please make sure to replace the placeholder email address (`XX@XX.ca`) with your actual email address. Also, ensure that the Font Awesome CSS file is included in your project for the icons to display properly. You can adjust the styling and add your projects as needed.
